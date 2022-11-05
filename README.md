@@ -6,6 +6,8 @@
 * SBC6809Eルーズキットに載っているMC6883のE信号から、MC6800のクロック信号を生成する回路がのってます。
 
 
+![回路図](image/MC6800-SBC6809E.jpg)
+
 ## 参考
 
 * [SBC6809Eが完成](https://vintagechips.wordpress.com/2022/01/06/sbc6809e_reference/)
