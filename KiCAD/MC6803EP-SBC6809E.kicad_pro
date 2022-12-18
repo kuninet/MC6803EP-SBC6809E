@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MC6800-SBC6809E.kicad_pro",
+    "filename": "MC6803EP-SBC6809E.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -397,7 +397,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../Applications/KiCad/",
-      "specctra_dsn": "MC6800-SBC6809E.dsn",
+      "specctra_dsn": "MC6803EP-SBC6809E.dsn",
       "step": "",
       "vrml": ""
     },
