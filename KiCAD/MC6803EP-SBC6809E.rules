@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 821)
+    (start_pass_no 1862)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -59,15 +59,6 @@
     BOLD "Via[0-1]_800:400_um-BOLD"
   )
   (class default
-    VCC GND /~{NMI} /~{IRQ} "unconnected-(U1-Pad4)" "unconnected-(U1-Pad5)" "unconnected-(U1-Pad6)" /A0
-    /A1 /A2 /A3 /A4 /A5 /A6 /A7 /A8
-    /A9 /A10 /A11 /A12 /A13 /A14 /A15 /D7
-    /D6 /D5 /D4 /D3 /D2 /D1 /D0 /R{slash}~{W}
-    "unconnected-(U1-Pad33)" /E "unconnected-(U1-Pad35)" "unconnected-(U1-Pad36)" /~{RES} "unconnected-(U1-Pad38)" /TSC /~{HALT}
-    "Net-(U2-Pad1)" /PHI1 /PHI2 "unconnected-(U2-Pad13)" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)"
-    "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)" "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)"
-    "Net-(J2-Pad5)" /RDn /WRn "unconnected-(J3-Pad32)" /E000 "unconnected-(J3-Pad34)" /A000 /8000
-    "unconnected-(J3-Pad38)" "unconnected-(U3-Pad3)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -78,6 +69,15 @@
     )
   )
   (class "kicad_default"
+    VCC GND /~{NMI} /~{IRQ} "Net-(J1-Pin_1)" "Net-(J1-Pin_2)" "Net-(J1-Pin_3)" /A0
+    /A1 /A2 /A3 /A4 /A5 /A6 /A7 /A8
+    /A9 /A10 /A11 /A12 /A13 /A14 /A15 /D7
+    /D6 /D5 /D4 /D3 /D2 /D1 /D0 /R{slash}~{W}
+    "Net-(J1-Pin_4)" /E "Net-(J1-Pin_5)" "Net-(J1-Pin_6)" /~{RES} "Net-(J1-Pin_7)" /TSC /~{HALT}
+    "Net-(U2-Pad1)" /PHI1 /PHI2 "unconnected-(U2-Pad13)" "Net-(J1-Pin_8)" "unconnected-(J2-Pin_2-Pad2)" "unconnected-(J2-Pin_3-Pad3)" "Net-(J2-Pin_4)"
+    "Net-(J2-Pin_5)" "unconnected-(J2-Pin_6-Pad6)" "unconnected-(J3-Pin_32-Pad32)" "unconnected-(J3-Pin_34-Pad34)" /RDn /WRn "unconnected-(J3-Pin_38-Pad38)" /E000
+    "Net-(U3-T-OUT-P21)" /A000 /8000 "Net-(U3-SCLK-P22)" "Net-(U3-TIN-P20)" "unconnected-(U1-~{FIRQ}-Pad4)" "unconnected-(U1-BS-Pad5)" "unconnected-(U1-BA-Pad6)"
+    "unconnected-(U1-BUSY-Pad33)" "unconnected-(U1-Q-Pad35)" "unconnected-(U1-AVMA-Pad36)" "unconnected-(U1-LIC-Pad38)" "unconnected-(U3-BA-Pad3)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
